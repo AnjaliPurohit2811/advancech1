@@ -6,8 +6,8 @@
   <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/fe96e275-fcb1-4b0c-9b4d-c041b0191f9c' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
 
   <div align="center">
-    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/tree/master/lib/%20Switch%20Dark%20Theme%20to%20Light%20Theme">👉 📚 Go to dart file 📚 👈</a>
-    adv_flutter_ch1
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/theme">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
 
 
 
