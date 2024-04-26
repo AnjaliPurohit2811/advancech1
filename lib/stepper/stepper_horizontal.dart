@@ -19,7 +19,8 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('Flutter Stepper Demo'),
+          title: Text('Flutter Stepper Demo' , style: TextStyle(color: Colors.white),),
+          centerTitle: true,
         ),
         body: Theme(
           data: ThemeData(
@@ -37,14 +38,11 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
             },
             onStepCancel: () {
               setState(() {
-                if(Globalvar.stepperIndex==2)
-                  {
-                    Globalvar.stepperIndex--;
-                  }
-                else
-                  {
-                    Globalvar.stepperIndex==0;
-                  }
+                if (Globalvar.stepperIndex == 2) {
+                  Globalvar.stepperIndex--;
+                } else {
+                  Globalvar.stepperIndex = 0;
+                }
               });
             },
             currentStep: Globalvar.stepperIndex,
