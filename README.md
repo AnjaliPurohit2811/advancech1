@@ -1,16 +1,19 @@
-# advancech1
+<h1 align="center">Advance Flutter Chapter 1</h1>
 
-A new Flutter project.
+<h3 align="center">🔥 Switch Dark Theme to Light Theme 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/09c07214-ceac-4360-8ec5-db06ededec69' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/fe96e275-fcb1-4b0c-9b4d-c041b0191f9c' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Getting Started
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/theme">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<video src="https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/a696f62b-425a-4193-a5c1-8ed839c074d0" width="400">
+  </div>
+</p>
+
+
