@@ -24,9 +24,18 @@
   <div align="center">
     <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/theme">👉 📚 Go to dart file 📚 👈</a>
     advancech1
+  </div></p>
+  <h3 align="center">🔥Diagram 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/8d63ba3f-1872-4ee0-bed7-1e7aa2dec4b3' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
 
   </div>
-</p>
+
 
 
 
