@@ -44,7 +44,8 @@ class _MyIntroState extends State<MyIntro> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Provider.of<IntroProvider>(context).isClicked ? HorizontalStepper() : Intro1Screen(),
+      debugShowCheckedModeBanner: false,
+      home: Provider.of<IntroProvider>(context , listen: true).isClicked ? HorizontalStepper() : Intro1Screen(),
     );
   }
 }

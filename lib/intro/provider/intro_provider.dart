@@ -14,7 +14,11 @@ class IntroProvider extends ChangeNotifier
   Future<void> getPressed()
   async{
     SharedPreferences preferences = await SharedPreferences.getInstance();
-    preferences.getBool('isChecked')?? false;
+    isClicked =  preferences.getBool('isChecked')?? false;
     notifyListeners();
+  }
+  IntroProvider()
+  {
+    getPressed();
   }
 }

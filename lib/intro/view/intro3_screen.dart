@@ -1,5 +1,7 @@
+import 'package:advancech1/intro/provider/intro_provider.dart';
 import 'package:advancech1/stepper/stepper_horizontal.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class Intro3Screen extends StatelessWidget {
   const Intro3Screen({super.key});
@@ -37,6 +39,7 @@ class Intro3Screen extends StatelessWidget {
               padding: const EdgeInsets.only(top: 100, left: 200),
               child:InkWell(
                 onTap: () {
+                  Provider.of<IntroProvider>(context, listen: false ).onPressed();
                   Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => HorizontalStepper(),
                   ));
