@@ -12,7 +12,6 @@ class ThemeChange extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light ,
         colorScheme: ColorScheme.light(
-          primary: Colors.yellow
         )
       ),
       darkTheme: ThemeData.dark(
@@ -37,7 +36,7 @@ class ThemeChange extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10 , vertical: 20),
               child: ListTile(
-                leading: Provider.of<ThemeProvider>(context , listen: true).isDark ? Icon(Icons.dark_mode_outlined , color: Theme.of(context).colorScheme.primary, ) : Icon(Icons.light_mode_outlined),
+                leading: Provider.of<ThemeProvider>(context , listen: true).isDark ? Icon(Icons.dark_mode_outlined  ) : Icon(Icons.light_mode_outlined),
                 title: Provider.of<ThemeProvider>(context, listen: true).isDark
                     ? const Text(
                   'Dark mode',

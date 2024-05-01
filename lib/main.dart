@@ -1,6 +1,10 @@
 
+
+
 import 'package:advancech1/counter/provider/counter_provider.dart';
 import 'package:advancech1/counter/view/counter_screen.dart';
+import 'package:advancech1/intro/provider/intro_provider.dart';
+import 'package:advancech1/intro/view/intro1_screen.dart';
 import 'package:advancech1/stepper/stepper_horizontal.dart';
 import 'package:advancech1/stepper/stepper_vertical.dart';
 
@@ -10,9 +14,42 @@ import 'package:advancech1/themeui/view/theme_ui_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'intro/view/intro2_screen.dart';
+import 'intro/view/intro3_screen.dart';
+import 'intro/provider/intro_provider.dart';
+
 void main() {
-  runApp(ChangeNotifierProvider(create: (context) => ThemeProvider(),child: ThemeChange(),));
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(
+      create: (context) => CounterProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => IntroProvider(),
+    ),
+  ],child: MyIntro(),));
+
 }
+
+class MyIntro extends StatefulWidget {
+  const MyIntro({super.key});
+
+  @override
+  State<MyIntro> createState() => _MyIntroState();
+}
+
+class _MyIntroState extends State<MyIntro> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Provider.of<IntroProvider>(context).isClicked ? HorizontalStepper() : Intro1Screen(),
+    );
+  }
+}
+
+
 
 
 
