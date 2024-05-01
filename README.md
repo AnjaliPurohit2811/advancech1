@@ -37,5 +37,45 @@
   </div>
 
 
+  <h3 align="center">🔥 Theme 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/620e03e8-c5cb-4a73-8c0f-5917f4bcfade' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/c218120f-5358-4f99-9015-ccab9eadf384' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/themeui">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
+
+
+
+
+<video src="https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/9cf2cfa5-70fb-4b27-b213-5316d442ad01" width="400">
+  </div>
+</p>
+
+  <h3 align="center">🔥 Counter App 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/63bb64e4-7f79-43af-a2cc-0c207d5cfbc4' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/counter">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
+
+
+
+
+<video src="https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/7d1775f7-fb0f-46f6-aba1-fedea4660aa9" width="400">
+  </div>
+</p>
+
+
+
+
+
+
+
+
+
 
 
