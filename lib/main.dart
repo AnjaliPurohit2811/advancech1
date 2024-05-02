@@ -1,6 +1,7 @@
 
 
 
+import 'package:advancech1/contactpage/view/contact_page.dart';
 import 'package:advancech1/counter/provider/counter_provider.dart';
 import 'package:advancech1/counter/view/counter_screen.dart';
 import 'package:advancech1/intro/provider/intro_provider.dart';
@@ -29,7 +30,7 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => IntroProvider(),
     ),
-  ],child: MyIntro(),));
+  ],child: ContactPage(),));
 
 }
 
