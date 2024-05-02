@@ -69,6 +69,28 @@
   </div>
 </p>
 
+  <h3 align="center">🔥 Intro Screen 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/c32739c5-9d80-4f05-a700-94aebe5e0b49' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+   <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/68a4c541-c557-43f1-b07e-620740a16cf4' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/0db1e8cd-c682-43fe-9463-71d85030a7f0' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/intro">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
+
+
+
+
+<video src="https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/9757fe64-65ca-44d6-bcac-e3ef8da2486b" width="400">
+  </div>
+</p>
+
+
+
+
+
 
 
 
