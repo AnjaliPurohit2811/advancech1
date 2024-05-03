@@ -4,6 +4,8 @@
 import 'package:advancech1/contactpage/view/contact_page.dart';
 import 'package:advancech1/counter/provider/counter_provider.dart';
 import 'package:advancech1/counter/view/counter_screen.dart';
+import 'package:advancech1/gallary/provider/fingerprint.dart';
+import 'package:advancech1/gallary/view/gallary_screen.dart';
 import 'package:advancech1/intro/provider/intro_provider.dart';
 import 'package:advancech1/intro/view/intro1_screen.dart';
 import 'package:advancech1/stepper/stepper_horizontal.dart';
@@ -30,7 +32,10 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => IntroProvider(),
     ),
-  ],child: ContactPage(),));
+    ChangeNotifierProvider(
+      create: (context) => GalleryProvider(),
+    ),
+  ],child: MyIntro()));
 
 }
 
@@ -46,7 +51,11 @@ class _MyIntroState extends State<MyIntro> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Provider.of<IntroProvider>(context , listen: true).isClicked ? HorizontalStepper() : Intro1Screen(),
+    initialRoute: '/',
+    routes: {
+        '/' : (context) => Gallery(),
+    },
+    //  home: Provider.of<IntroProvider>(context , listen: true).isClicked ? HorizontalStepper() : Intro1Screen(),
     );
   }
 }

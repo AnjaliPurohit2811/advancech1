@@ -34,7 +34,7 @@ class ContactPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 35, left: 50),
               child: InkWell(
                 onTap: () {
-                  Uri uri = Uri.parse('tel : +91 9601046183');
+                  Uri uri = Uri.parse('tel: +91 9601046183');
                   launcher.launchUrl(uri);
                 },
                 child: Container(
@@ -70,7 +70,7 @@ class ContactPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 20, left: 50),
               child: InkWell(
                 onTap: () {
-                  Uri uri = Uri.parse('mailto : anjalipurohit2811@gmail.com');
+                  Uri uri = Uri.parse('mailto: anjalipurohit2811@gmail.com');
                   launcher.launchUrl(uri);
                 },
                 child: Container(
@@ -106,7 +106,7 @@ class ContactPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 20, left: 50),
               child: InkWell(
                 onTap: () {
-                  Uri uri = Uri.parse('sms : +91 9601046183');
+                  Uri uri = Uri.parse('sms: +91 9601046183');
                   launcher.launchUrl(uri);
                 },
                 child: Container(
