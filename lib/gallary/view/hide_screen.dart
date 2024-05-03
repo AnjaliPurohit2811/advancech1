@@ -17,7 +17,7 @@ class HideScreen extends StatelessWidget {
         shadowColor: Colors.black38,
         leading: const Icon(Icons.menu,color: Colors.black,),
         title: const Text(
-          'Hide Albums',
+          'Hidden',
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22,color: Colors.black),
         ),
         actions: const [

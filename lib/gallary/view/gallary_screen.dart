@@ -78,7 +78,7 @@ class Gallery extends StatelessWidget {
                       value: 'Albums',
                       child: Text('Albums'),
                     ),
-                     PopupMenuItem<String>(
+                    const PopupMenuItem<String>(
                       value: 'Hide Folder',
                       child: Text('Hidden'),
                     ),
