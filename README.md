@@ -104,6 +104,24 @@
 </p>
 
 
+ <h3 align="center">🔥 Fingerprint Bio-metrics 🔥</h3>
+<p align="center">
+  <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/05d45423-a1b9-4c23-80f2-49430ccbee9e' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src='https://github.com/AnjaliPurohit2811/advancech1/assets/143180602/e298f269-5f38-4f18-b183-620ceebb65ca' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  
+ 
+
+  <div align="center">
+    <a href="https://github.com/AnjaliPurohit2811/advancech1/tree/master/lib/gallary">👉 📚 Go to dart file 📚 👈</a>
+    advancech1
+
+
+  </div>
+</p>
+
+
+
+
 
 
 
